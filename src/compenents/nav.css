@@ -143,3 +143,18 @@
     text-align: center;
     color:rgb(168, 89, 20);
 }
+.home{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.see{
+    border: 3px solid  white;
+    background-color: white ;
+    color: rgb(168, 89, 20);
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 3px 2px;
+    width:100px;
+    
+}

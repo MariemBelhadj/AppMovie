@@ -2,11 +2,15 @@ import React from "react"
 import Rate from './Rate'
 import SearchIcon from '@mui/icons-material/Search';
 import './nav.css'
+import {Link} from 'react-router-dom'
 
 function Search( {handleSearch,setRatingSearch , ratingSearch}){
     return(
         <div>
              <div className='nave' >
+                
+            
+        <Link to="/" className="home">Home</Link>
                 <form>
                     <div className="navSearch">
                     

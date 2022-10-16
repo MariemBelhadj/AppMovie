@@ -5,7 +5,9 @@ const MoviesList=({data})=>{
     return(
         <>
         {data.map(e=>(
+            <>
             <Movie movie={e}/>
+            </>
         ))}
          
 
